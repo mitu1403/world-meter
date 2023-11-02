@@ -1,0 +1,41 @@
+table {
+  border-collapse: collapse;
+}   
+tr.border-bottom th {
+  border-bottom: 2pt solid gainsboro;
+}
+th {
+  padding: 0 1.5rem .5rem 1.5rem;
+  vertical-align: bottom;
+}
+th button{
+  font-weight: bold;
+}
+th:nth-child(1) {
+  padding: 0 3rem .5rem 0;
+}
+th:nth-child(2) {
+  padding: 0 6rem .5rem 0;
+  text-align: start;
+}
+button{
+  background-color: transparent;
+  border: none;
+}
+thead button::after {
+  content: '👈' ;
+  display: inline-block;
+  margin-left: .5rem;
+}
+thead button.ascending::after {
+  content: '👇';
+  display: inline-block;
+  margin-left: .5rem;
+}
+
+thead button.descending::after {
+  content: '☝️';
+  display: inline-block;
+  margin-left: .5rem;
+}
+

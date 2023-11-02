@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@700&display=swap');
+
+
+h1 {
+  font-family: 'Ysabeau SC', sans-serif;
+  font-size: 3.2em;
+  line-height: 1.1;
+  letter-spacing: -4.9px;
+}
+h1 span{
+  font-size: 2rem;
+}
+
+
