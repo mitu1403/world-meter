@@ -7,9 +7,11 @@ tr.border-bottom th {
 th {
   padding: 0 1.5rem .5rem 1.5rem;
   vertical-align: bottom;
+  color: #222222;
 }
 th button{
   font-weight: bold;
+  color: #222222;
 }
 th:nth-child(1) {
   padding: 0 3rem .5rem 0;

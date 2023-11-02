@@ -10,6 +10,7 @@ td{
   border-bottom: .2pt solid gainsboro;
   padding-bottom: .2rem;
   padding-left: 15px;
+  color: #222222;
 }
 td:nth-child(1) {
   text-align: start;

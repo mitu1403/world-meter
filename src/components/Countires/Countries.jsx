@@ -24,7 +24,7 @@ const Countries = () => {
 
   return (
     <div>
-      <h2>Countries: {countries.length}</h2>
+      <h2 style={{color:"#222222"}}>Countries: {countries.length}</h2>
       <Table striped bordered hover responsive>
         <thead>
           <tr className="border-bottom">
