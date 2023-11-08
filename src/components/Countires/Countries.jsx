@@ -33,9 +33,7 @@ const Countries = () => {
             <th>Region</th>
             <th>
               <button title="Click to sort" type="button" onClick={() => requestSort("capital")} className={getClassNamesFor('capital')}>
-                Capital
-                <br />
-                (Km²) 
+                Capital                 
               </button>
             </th>
             <th>
